@@ -1,0 +1,94 @@
+/* TimelineJS Custom Theme: Light & Hearty */
+
+.tl-timeline .tl-slide {
+  background-color: #f9fafb !important;     /* very light background */
+  color: #2e2e2e !important;                /* dark text for readability */
+  font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, sans-serif;
+}
+
+.tl-timeline .tl-slide h2.tl-headline,
+.tl-timeline .tl-slide h3.tl-headline-date,
+.tl-timeline .tl-slide .tl-slide-date {
+  color: #0073ca !important;                /* vibrant blue accent */
+  margin-bottom: 0.4em;
+}
+
+.tl-timeline .tl-slide .tl-text,
+.tl-timeline .tl-slide .tl-text-content,
+.tl-timeline .tl-slide .tl-text-content p {
+  color: #3b3b3b !important;
+  line-height: 1.6;
+}
+
+.tl-timeline .tl-slide blockquote {
+  border-left: 4px solid #0073ca;
+  margin-left: 0;
+  padding-left: 1em;
+  color: #555555;
+  background-color: rgba(0,115,202,0.05);
+}
+
+.tl-timeline .tl-slide .tl-media-caption,
+.tl-timeline .tl-slide .tl-media-credit {
+  color: #6a6a6a !important;
+  font-style: italic;
+}
+
+.tl-timeline .tl-slide a {
+  color: #0073ca !important;
+  text-decoration: underline;
+}
+.tl-timeline .tl-slide a:hover {
+  color: #005a9c !important;
+}
+
+.tl-timeline .tl-timenav {
+  background-color: #ffffff !important;    /* nav on white background */
+  border-top: 3px solid #0073ca;
+}
+
+.tl-timeline .tl-timemarker .tl-timemarker-content-container {
+  background-color: #edf2f7 !important;
+  color: #2e2e2e !important;
+  border: 2px solid #c8d3dd !important;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.tl-timeline .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
+  background-color: #0073ca !important;     /* active marker accent blue */
+  color: #ffffff !important;
+  border-color: #005a9c !important;
+}
+
+/* Navigation arrows & text */
+.tl-timeline .tl-slidenav-next,
+.tl-timeline .tl-slidenav-previous {
+  color: #2e2e2e !important;
+}
+.tl-timeline .tl-slidenav-next .tl-slidenav-title,
+.tl-timeline .tl-slidenav-previous .tl-slidenav-title {
+  color: #2e2e2e !important;
+}
+.tl-timeline .tl-slidenav-next .tl-slidenav-icon::before,
+.tl-timeline .tl-slidenav-previous .tl-slidenav-icon::before {
+  color: #2e2e2e !important;
+  border-color: #2e2e2e !important;
+}
+
+.tl-timeline .tl-slide-titleslide {
+  background-color: #e9ecef !important;
+}
+.tl-timeline .tl-slide-titleslide h2.tl-headline {
+  color: #0073ca !important;
+  font-size: 2.2em;
+}
+
+/* Responsive / mobile tweaks */
+@media only screen and (max-width: 768px) {
+  .tl-timeline .tl-slide h2.tl-headline {
+    font-size: 1.7em;
+  }
+  .tl-timeline .tl-slide .tl-text {
+    font-size: 0.95em;
+  }
+}
