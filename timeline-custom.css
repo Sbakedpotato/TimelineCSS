@@ -100,3 +100,25 @@
     font-size: 0.95em;
   }
 }
+
+/* Force nav arrow icon colour */
+.tl-timeline .tl-slidenav-next .tl-slidenav-icon::before,
+.tl-timeline .tl-slidenav-previous .tl-slidenav-icon::before {
+  color: #f3f8ff !important;
+  fill: #f3f8ff !important;          /* if SVG uses fill */
+  background-color: transparent !important;
+  border-color: #f3f8ff !important;   /* if arrow uses border approach */
+}
+
+/* Force nav arrow text/title */
+.tl-timeline .tl-slidenav-next .tl-slidenav-title,
+.tl-timeline .tl-slidenav-previous .tl-slidenav-title {
+  color: #f3f8ff !important;
+}
+
+/* If the navigation container has its own icon rule */
+.tl-timeline .tl-slidenav-next,
+.tl-timeline .tl-slidenav-previous {
+  color: #f3f8ff !important;
+}
+
