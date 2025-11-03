@@ -92,3 +92,20 @@
     font-size: 0.95em;
   }
 }
+.tl-timeline .tl-slidenav-next,
+.tl-timeline .tl-slidenav-previous {
+  color: #f3f8ff !important;
+}
+
+.tl-timeline .tl-slidenav-next .tl-slidenav-title,
+.tl-timeline .tl-slidenav-previous .tl-slidenav-title {
+  color: #f3f8ff !important;
+}
+
+.tl-timeline .tl-slidenav-next .tl-slidenav-icon::before,
+.tl-timeline .tl-slidenav-previous .tl-slidenav-icon::before {
+  /* If the arrow icon is inserted via ::before, force its color */
+  color: #f3f8ff !important;
+  border-color: #f3f8ff !important; /* if arrow is drawn via border */
+}
+
