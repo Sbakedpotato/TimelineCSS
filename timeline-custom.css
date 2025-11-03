@@ -64,6 +64,8 @@
   color: #0d0e1a !important;
   border-color: #cc574f !important;
 }
+
+/* Navigation arrows & text */
 .tl-timeline .tl-slidenav-next,
 .tl-timeline .tl-slidenav-previous {
   color: #f3f8ff !important;
@@ -76,7 +78,25 @@
 
 .tl-timeline .tl-slidenav-next .tl-slidenav-icon::before,
 .tl-timeline .tl-slidenav-previous .tl-slidenav-icon::before {
-  /* If the arrow icon is inserted via ::before, force its color */
   color: #f3f8ff !important;
-  border-color: #f3f8ff !important; /* if arrow is drawn via border */
+  border-color: #f3f8ff !important;
+}
+
+/* Ensure large title slide variation */
+.tl-timeline .tl-slide-titleslide {
+  background-color: #0b0c13 !important;
+}
+.tl-timeline .tl-slide-titleslide h2.tl-headline {
+  color: #ffcc5f !important;
+  font-size: 2.4em;
+}
+
+/* Responsive / mobile tweaks */
+@media only screen and (max-width: 768px) {
+  .tl-timeline .tl-slide h2.tl-headline {
+    font-size: 1.8em;
+  }
+  .tl-timeline .tl-slide .tl-text {
+    font-size: 0.95em;
+  }
 }
