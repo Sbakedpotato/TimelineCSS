@@ -1,0 +1,54 @@
+/* TimelineJS Custom Theme: Light & Modern */
+
+.tl-timeline .tl-slide {
+  background-color: #f4f6f8; /* default slide background */
+  color: #333333;            /* default text colour */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tl-timeline .tl-slide h2.tl-headline,
+.tl-timeline .tl-slide .tl-slide-date {
+  color: #0066cc;            /* accent for headlines & dates */
+  margin-bottom: .5em;
+}
+
+.tl-timeline .tl-timenav {
+  background-color: #e1e8f2; /* nav bar background */
+}
+
+.tl-timeline .tl-timemarker .tl-timemarker-content-container {
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid #c8d4e2;
+}
+
+.tl-timeline .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
+  background-color: #0066cc; /* active marker accent */
+  color: #ffffff;
+  border-color: #004a99;
+}
+
+.tl-timeline .tl-slide .tl-media-caption,
+.tl-timeline .tl-slide .tl-media-credit {
+  color: #777777;
+  font-style: italic;
+}
+
+.tl-timeline .tl-slide a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+.tl-timeline .tl-slide a:hover {
+  color: #004a99;
+}
+
+.tl-timeline .tl-slide .tl-text {
+  line-height: 1.6;
+}
+
+.tl-timeline .tl-slide blockquote {
+  border-left: 4px solid #0066cc;
+  margin-left: 0;
+  padding-left: 1em;
+  color: #555555;
+}
